@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Sirikye/portfolio/issues"
   },
-  "homepage": "https://github.com/Sirikye/portfolio",
+  "homepage": "https://sirikye.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
