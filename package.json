@@ -1,5 +1,5 @@
 {
-  "name": "personal",
+  "name": "start",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sirikye/personalwebapp.git"
+    "url": "git+https://github.com/Sirikye/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sirikye/personalwebapp/issues"
+    "url": "https://github.com/Sirikye/portfolio/issues"
   },
   "homepage": "https://sirikye.github.io/portfolio",
   "dependencies": {
