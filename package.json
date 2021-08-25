@@ -1,20 +1,20 @@
 {
-  "name": "start",
+  "name": "personal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sirikye/portfolio.git"
+    "url": "git+https://github.com/Sirikye/personalwebapp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sirikye/portfolio/issues"
+    "url": "https://github.com/Sirikye/personalwebapp/issues"
   },
   "homepage": "https://sirikye.github.io/portfolio",
   "dependencies": {
