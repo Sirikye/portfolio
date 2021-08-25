@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sirikye/portfolio/issues"
   },
-  "homepage": "https://github.com/Sirikye/portfolio#readme"
+  "homepage": "https://github.com/Sirikye/portfolio",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
