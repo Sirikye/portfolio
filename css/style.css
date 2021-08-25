@@ -810,3 +810,116 @@ Header
     font-size: 16px;
     color: var(--text-dark-700);
   }
+
+  /*--------------------------------------------
+    Portfolio section
+  --------------------------------------------*/
+
+  .portfolio-section{
+    min-height: 100vh;
+    padding: 80px 0 80px;
+  }
+
+  .portfolio-section .section-title{
+    margin-bottom: 40px;
+  }
+
+  .portfolio-section .portfolio-filter{
+    padding: 0 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-section .filter-item{
+    display: inline-block;
+    margin: 0 5px 10px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    color: var(--text-dark-600);
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .portfolio-section .filter-item:hover:not(.active){
+    opacity: 0.6;
+  }
+
+  .portfolio-section .filter-item.active{
+    color: var(--skin-color);
+  }
+
+  .portfolio-section .portfolio-item{
+    padding: 15px;
+    flex: 33.33%;
+    max-width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-section .portfolio-item-inner{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+
+  .portfolio-section .portfolio-item-inner .portfolio-item-img{
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .portfolio-section .portfolio-item-inner .portfolio-item-img img{
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .portfolio-section .portfolio-item-inner:hover .portfolio-item-img img{
+    transform: translateY(-25px);
+  }
+
+  .portfolio-section .portfolio-item-inner .portfolio-item-img .view-project{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transform: translateY(-5px);
+    border: 1px solid var(--bg-light-100);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bg-black-50);
+
+  }
+
+  .portfolio-section .portfolio-item-inner:hover .view-project{
+    transform: translateY(0px);
+  }
+
+  .portfolio-section .portfolio-item-inner p{
+    padding: 15px 0;
+    color: var(--text-dark-600);
+  }
+
+  .portfolio-section .portfolio-item-inner:hover p{
+    opacity: 0.6;
+  }
+  
+
+  .portfolio-section .portfolio-item .portfolio-item-details{
+    display: none;
+  }
+
+
+
+
