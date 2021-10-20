@@ -173,3 +173,26 @@ function bodyScrollingToggle() {
   }
 
 })();
+
+
+
+/**---------------------testimonial section ----------------*/
+
+(() => {
+  const sliderContainer = document.querySelector(".testimonial-slider-container");
+  const slides = sliderContainer.querySelector(".testimonial-item");
+  const slideWidth = sliderContainer.offsetWidth;
+  const prevBtn = document.querySelector(".testimonial-slider-nav prev");
+  const nextBtn = document.querySelector(".testimonial-slider-nav next");
+
+  let slideIndex = 0;
+  //set width of all slides
+  slides.forEach((slide) => {
+    slide.style.width = slideWidth + "px";
+  })
+
+  //set width of silder container
+  sliderContainer.style.width = slideWidth * slides.length + "px";
+
+})();
+
