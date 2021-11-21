@@ -1219,23 +1219,18 @@ testimonial section
 
 .testimonial-section .testimonial-slider{
   border-radius: 5px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .testimonial-section .testimonial-slider-container{
   display: flex;
+  flex-direction: column;
 }
 
 .testimonial-section .testimonial-item{
   padding: 30px;
   text-align: center;
   position: relative;
-}
-
-.testimonial-section .testimonial-item img{
-  max-width: 70px;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 .testimonial-section .testimonial-item i{
@@ -1262,11 +1257,18 @@ testimonial section
   margin: 0 0 30px;
 }
 
+.testimonial-section .testimonial-item img{
+  max-width: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .testimonial-section .testimonial-item span{
   display: block;
   margin: 10px 0;
   font-weight: 600;
-  color: var(--text-dark-600);
+  font-size: 16px;
+  color: var(--text-dark-700);
   text-transform: capitalize;
 }
 

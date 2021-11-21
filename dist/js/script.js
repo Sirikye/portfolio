@@ -184,7 +184,6 @@ function bodyScrollingToggle() {
   const slideWidth = sliderContainer.offsetWidth;
   const prevBtn = document.querySelector(".testimonial-slider-nav prev");
   const nextBtn = document.querySelector(".testimonial-slider-nav next");
-
   let slideIndex = 0;
   //set width of all slides
   slides.forEach((slide) => {
